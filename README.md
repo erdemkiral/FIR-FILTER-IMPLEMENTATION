@@ -4,6 +4,9 @@ In this project, I have implemented FIR (Finite Impulse Response) low-pass filte
 
 # FILTER SPECIFICATIONS 
 
-Tap number         : 50 Fpass              : 2 kHz Fstop               : 5 kHz  Sampling Frequency : 20 kHz
+Tap number         : 50.
+Fpass              : 2 kHz 
+Fstop              : 5 kHz  
+Sampling Frequency : 20 kHz
 
 
