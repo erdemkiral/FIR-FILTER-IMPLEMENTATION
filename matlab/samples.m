@@ -3,7 +3,7 @@ fs = 20000;
 T  = 1/fs;
 t = 0:1/fs:0.02;
 
-signal_noisy = 2*sin(2*pi*2500*t) + 4*cos(2*pi*7000*t);
+signal_noisy = 2*sin(2*pi*2500*t) + 4*cos(2*pi*7000*t) + randn([0:401]);
 
 noisy_single = single(signal_noisy);
 noisy_hex    = num2hex(noisy_single);
