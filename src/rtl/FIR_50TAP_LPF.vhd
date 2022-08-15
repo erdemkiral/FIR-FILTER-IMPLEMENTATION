@@ -184,22 +184,22 @@ end process P_MAIN;
 
 i_fpu : fpu 
 port map (
-        clk_i 			=> clk          ,
+        clk_i 		=> clk          ,
         opa_i        	=> opa_i        , 
         opb_i           => opb_i        , 
-        fpu_op_i		=> fpu_op_i     ,
-        rmode_i 		=> rmode_i      ,                
+        fpu_op_i	=> fpu_op_i     ,
+        rmode_i 	=> rmode_i      ,                
         output_o        => output_o     ,       
-        start_i			=> start_i	    ,
-        ready_o 		=> ready_o      ,
-        ine_o 			=> ine_o 		,	
+        start_i		=> start_i      ,
+        ready_o 	=> ready_o      ,
+        ine_o 		=> ine_o 	,	
         overflow_o  	=> overflow_o  	,
         underflow_o 	=> underflow_o 	,
         div_zero_o  	=> div_zero_o  	,
-        inf_o			=> inf_o		,	
-        zero_o			=> zero_o		,	
-        qnan_o			=> qnan_o		,	
-        snan_o			=> snan_o			
+        inf_o		=> inf_o	,	
+        zero_o		=> zero_o	,	
+        qnan_o		=> qnan_o	,	
+        snan_o		=> snan_o			
 	);   
 
 end Behavioral;
