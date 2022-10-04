@@ -176,6 +176,7 @@ if(rising_edge(clk)) then
 			end if;
 		when S_DONE    => 
 			state <= S_IDLE;
+			
 	
 	end case;
     
